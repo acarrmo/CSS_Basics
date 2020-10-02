@@ -1,0 +1,23 @@
+ [class^="bg-"]
+ {
+   display: inline-block;
+   width: 30%;
+   height: 150px;
+   border: 1px solid grey;
+ }
+
+body
+{
+  padding-bottom: 50em;
+  text-align: center;
+}
+
+.bg-attachment
+{
+  width: 600px;
+  height: 400px;
+  background-image: url(aldeba.png);
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
