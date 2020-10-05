@@ -1,0 +1,54 @@
+body
+{
+    font-size: 20px;
+}
+
+.title
+{
+  font-family: 'Roboto', sans-serif;
+/*  font-size: 10vmin; */
+}
+
+.paragraph
+{
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.paragraph-lower
+{
+  text-transform:lowercase;
+}
+
+.paragraph-cap
+{
+  text-transform: capitalize;
+  text-indent: 30px;
+}
+
+.paragraph-align
+{
+  text-align: right;
+}
+
+.link
+{
+  display: block;
+  text-align: center;
+}
+
+.list-ul
+{
+  list-style-type: circle;
+}
+
+.table, .table-head, .table-body
+{
+  table-layout: fixed;
+  height: 100%;
+  text-align: center;
+  caption-side: bottom;
+  border-spacing: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
