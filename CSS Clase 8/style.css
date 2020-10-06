@@ -1,0 +1,46 @@
+.img
+{
+  max-width: 100%;
+  filter: blur(5px);
+}
+
+.img:hover
+{
+  filter: none;
+}
+
+.img-center
+{
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-container1 img,
+.img-container1 span
+{
+  vertical-align: middle;
+}
+
+.img-container2 img,
+.img-container2 span
+{
+  vertical-align: middle;
+}
+
+.img-container2
+{
+  display: table;
+}
+
+.img-container2 span
+{
+  display: table-cell;
+}
+
+.img-container3
+{
+  display: flex;
+  align-items: center;
+}
