@@ -7,32 +7,38 @@
   display: inline-block;
   text-align: center;
   line-height: 200px;
+
 }
 
 .box-name
 {
   background-color: cadetblue;
   color: white;
+  border-radius: 20px;
 }
 .box-rgb
 {
   background-color: rgb(0, 58, 87);
   color: rgb(255,255, 255);
+  border-radius: 20px 50px;
 }
 .box-rgba
 {
   background-color: rgba(255,125,4,.5);
   color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px 50px / 50px 10px;
 }
 .box-hexa
 {
   background-color: #F00;
   color: #FFF;
+  border-radius: 50%;
 }
 .box-hsl
 {
   background-color: hsl(80, 70%, 70%);
   color: hsl(0,0%,100%);
+  box-shadow: 1px 4px 4px 2px grey;
 }
 .box-hsla
 {
