@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Usando Flexbox</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-right">
+        <img src="logo.png" alt="Imagen de formulario">
+      </div>
+      <div class="card-left">
+        <h1 class="card-title">Contacto</h1>
+        <form class="form" action="#">
+          <div class="form-field">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" name="name" id="name" class="form-input">
+          </div>
+          <div class="form-field">
+            <label for="surname" class="form-label">Apellido</label>
+            <input type="text" name="surname" id="surname" class="form-input">
+          </div>
+          <div class="form-field">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" id="email" class="form-input">
+          </div>
+          <div class="form-field">
+            <label for="msg" class="form-label">Mensaje</label>
+            <textarea id="msg" name="msg" rows="4" cols="40" class="form-textarea"></textarea>
+          </div>
+          <div class="button">
+          <input class="form-submit" type="submit" name="form-submit" value="Enviar">
+          <input class="form-button" type="button" name="form-button" value="Limpiar">
+          </div>
+        </form>
+      </div>
+  </body>
+</html>
