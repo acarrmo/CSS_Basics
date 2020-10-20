@@ -7,7 +7,7 @@ Estas instrucciones te permitirán obtener una copia de la práctica en tu máqu
 # Pre-requisitos 
 Navegador
 Editor de código
-Prepos (ocional)
+Prepos (opcional)
 
 # Ejecutando las pruebas
 Correr index.html para visualizar
